@@ -1,12 +1,12 @@
 # Project X README
 
-Student: Name (123456789)
+Student: Evan Shum (927272694)
 
 ## Project Status
-This the current status of the project ...
+I forgot to upload a github repository even though I had already typed out what was provided in discussion.
 
 ## Known Issues
-The project fails to function properly in ...
+So far this code does not currently run the bin analysis, and valgrind isn't really present yet
 
 ## Code References
 * [Different ways to initialize variables](https://stackoverflow.com/questions/22543875/different-ways-to-initialize-variables)
