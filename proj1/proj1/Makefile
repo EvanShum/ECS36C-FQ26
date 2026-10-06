@@ -44,6 +44,9 @@ all: make_directories \
 run_testdeque: $(TEST_DEQUE_TARGET)
 	$(TEST_DEQUE_TARGET)
 
+run_analysis: $(ANALYSIS_TARGET)
+	$(ANALYSIS_TARGET) <256> <1024>
+
 generate_coverage: $(LCOV) --capture --directory 'pwd' --output-file $(COVERAGE_INFO_FILE)	--ignore-errors inconsistent,source
 2> lcov.err && \
 	grep -v "mismatched end line" lcov.err >&2 && rm -f lcov.err
