@@ -6,7 +6,7 @@ Student: Evan Shum (927272694)
 I forgot to upload a github repository even though I had already typed out what was provided in discussion.
 
 ## Known Issues
-So far this code does not currently run the bin analysis, and valgrind isn't really present yet. Need to figure out how to implement iteration and maxsize.
+So far this code does not currently run the bin analysis, and valgrind isn't really present yet. Need to figure out how to implement iteration and maxsize. I didn't realize some of the commands were Linux 
 
 ## Code References
 * [Different ways to initialize variables](https://stackoverflow.com/questions/22543875/different-ways-to-initialize-variables)

@@ -11,7 +11,6 @@ TESTS_BIN_DIR	 = $(TESTS_DIR)/bin
 TESTS_OBJ_DIR	 = $(TESTS_DIR)/obj
 TESTS_SRC_DIR	 = $(TESTS_DIR)/src
 TESTS_HTMLCOV_DIR	 = $(TESTS_DIR)/htmlconv
-
 COVERAGE_INFO_FILE	=	$(TESTS_HTMLCOV_DIR)/lcov.info
 
 INCLUDES 	= 	-I $(INC_DIR)
@@ -45,7 +44,7 @@ run_testdeque: $(TEST_DEQUE_TARGET)
 	$(TEST_DEQUE_TARGET)
 
 run_analysis: $(ANALYSIS_TARGET)
-	$(ANALYSIS_TARGET) <256> <1024>
+	$(ANALYSIS_TARGET) 
 
 generate_coverage: $(LCOV) --capture --directory 'pwd' --output-file $(COVERAGE_INFO_FILE)	--ignore-errors inconsistent,source
 2> lcov.err && \
